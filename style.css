@@ -1,0 +1,56 @@
+body {
+    padding: 50px;
+    font-family: "Khmer OS", Arial, sans-serif;
+}
+.calendar {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.calendar th {
+    background-color: #1fd655;
+    height: 40px;
+    font-weight: 480;
+}
+.calendar tr, .calendar td {
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 20px;
+}
+.calendar td img {
+    width: 15px;
+    margin-right: 5px;
+}
+td {
+    height: 100px;
+    padding: 10px;
+    font-weight: bold;
+}
+.tb-opacity {
+    opacity: 10%;
+}
+.green {
+    background-color: #1fd655;
+}
+.light-g {
+    background-color: #abf7b1;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+span {
+    font-size: 16px;
+    font-weight: 300;
+}
+td:hover {
+    background-color: #f0f0f0;
+}
+.green:hover {
+    background-color: #00c04b;
+}
+.light-g:hover {
+    background-color: #5ced73;
+}
